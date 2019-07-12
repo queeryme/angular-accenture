@@ -2,7 +2,11 @@
   <mat-card-title>Steps</mat-card-title>
   <mat-card-content>
     <mat-list>
-      <mat-list-item *ngFor="let step of stepList">{{ step }}</mat-list-item>
+      <mat-list-item *ngFor="let step of stepList">
+        <mat-radio-button>
+          {{ step }}
+        </mat-radio-button>
+      </mat-list-item>
     </mat-list>
   </mat-card-content>
 </mat-card>

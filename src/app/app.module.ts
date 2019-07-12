@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StepsComponent } from './steps/steps.component';
 import { IngredientsComponent } from './ingredients/ingredients.component';
-import {MatCardModule, MatListModule} from '@angular/material';
+import {MatCardModule, MatListModule, MatRadioModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -19,7 +19,8 @@ import {MatCardModule, MatListModule} from '@angular/material';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatRadioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
