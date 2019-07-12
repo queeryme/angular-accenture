@@ -2,13 +2,7 @@
   <mat-card-title>Ingredients</mat-card-title>
   <mat-card-content>
     <mat-list>
-      <mat-list-item>Soy Sauce</mat-list-item>
-      <mat-list-item>Vinegar</mat-list-item>
-      <mat-list-item>Pork Cubes</mat-list-item>
-      <mat-list-item>Garlic</mat-list-item>
-      <mat-list-item>Laurel Leaves</mat-list-item>
-      <mat-list-item>Oil</mat-list-item>
-      <mat-list-item>Whole Black Pepper</mat-list-item>
+      <mat-list-item *ngFor="let ingredient of ingredientList">{{ ingredient }}</mat-list-item>
     </mat-list>
   </mat-card-content>
 </mat-card>

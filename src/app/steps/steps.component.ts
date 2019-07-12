@@ -7,7 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StepsComponent implements OnInit {
 
-  constructor() { }
+  stepList = [
+    'Stir-fry the garlic until aromatic',
+    'Add the pork cubes and fry for 10 minutes until half done',
+    'Add the vinegar and simmer for 5 minutes',
+    'Add the remaining ingredients and continue cooking until fully cooked',
+  ];
+
+  constructor() {
+  }
 
   ngOnInit() {
   }
